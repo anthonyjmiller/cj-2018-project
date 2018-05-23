@@ -40,8 +40,8 @@
 
 <a href="https://www.slps.org/domain/5">Map of St. Louis Public Schools</a>
 
-<a href="https://www2.census.gov/geo/maps/dc10map/tract/st29_mo/c29510_st_louis_city/DC10CT_C29510_CT2MS.txt">List of census tracts in St. Louis City</a>
+<a href="https://www2.census.gov/geo/maps/dc10map/tract/st29_mo/c29510_st_louis_city/DC10CT_C29510_CT2MS.txt">List of Census tracts in St. Louis City</a>
 
-<a href="https://www2.census.gov/geo/maps/dc10map/tract/st29_mo/c29510_st_louis_city/DC10CT_C29510_001.pdf">Map of census tracts in St. Louis City</a>
+<a href="https://www2.census.gov/geo/maps/dc10map/tract/st29_mo/c29510_st_louis_city/DC10CT_C29510_001.pdf">Map of Census tracts in St. Louis City</a>
 
-<a href="https://factfinder.census.gov/faces/nav/jsf/pages/community_facts.xhtml">Factfinder for censys data (median income per tract, population per tract)</a>
+<a href="https://factfinder.census.gov/faces/nav/jsf/pages/community_facts.xhtml">Factfinder for Census data (median income per tract, population per tract)</a>
