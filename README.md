@@ -31,13 +31,17 @@
 <a href="http://www.stltoday.com/news/local/education/not-in-class-chronic-absenteeism-a-problem-throughout-region-s/article_7d8e0e34-4394-5ea8-9561-33299db1fe07.html">Not in class: Chronic absenteeism a problem throughout region's schools </a> <p>Data from St. Louis Public Schools show that more than one in ten students missed school so frequently that they are considered academically at-risk. Interestingly, the problem affects struggling schools as well as wealthy districts. The article highlights that by high school, chronic absenteeism can lead to higher chances of living in poverty and being involved with the criminal justice system.</p>
 
 <h2>Data sources</h2>
-<ul>
+
 <a href="https://mcds.dese.mo.gov/guidedinquiry/District%20and%20Building%20Student%20Indicators/Building%20Attendance%20Rate.aspx">Building Attendance Rate - Missouri Department of Education</a>
+
 <a href="http://www.slmpd.org/Crimereports.shtml">Downloadable Crime Data - St. Louis Metropolitan Police Department</a>
+
 <a href="https://www.stlouis-mo.gov/data/boundaries/ward-neighborhood-boundaries.cfm">St. Louis City and Neighborhood Boundary</a>
+
 <a href="https://www.slps.org/domain/5">Map of St. Louis Public Schools</a>
+
 <a href="https://www2.census.gov/geo/maps/dc10map/tract/st29_mo/c29510_st_louis_city/DC10CT_C29510_CT2MS.txt">List of census tracts in St. Louis City</a>
+
 <a href="https://www2.census.gov/geo/maps/dc10map/tract/st29_mo/c29510_st_louis_city/DC10CT_C29510_001.pdf">Map of census tracts in St. Louis City</a>
 
 <a href="https://factfinder.census.gov/faces/nav/jsf/pages/community_facts.xhtml">Factfinder for censys data (median income per tract, population per tract)</a>
-</ul>
