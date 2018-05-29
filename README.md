@@ -18,9 +18,6 @@
 <a href="http://www.chicagotribune.com/news/data/ct-shooting-victims-map-charts-htmlstory.html">Chicago Tribune's Shooting Victims Map</a> 
 <p>Chicago, notorious for its gun violence, provides robust crime data that reimagines the way we can perceive the city. One visualization that I like on this page, which provides several charts and tables with shooting data, is the heatmap of where shootings occur. I think that being able to see the map provides a good understanding of the prevalence of violence in certain neighborhoods. </p>
 
-<a href="https://www.theatlantic.com/education/archive/2015/12/reimagining-abandoned-schools/418311/">Reimagining abandoned schools</a>
-<p>While this article focuses on what happens to the educational spaces after they are closed, it touches on the important role that schools have. They aren't just places for youth to learn; in rural, urban and suburban areas alike, schools tend to serve as community centers. So when a school does close, it often causes "grief and upheaval" in the community it existed.</p>
-
 <ul>
 <li>The main thing that will differentiate my app from the others is that none of these pair location of the closed schools with crime incidents. Each app focuses on one metric: shooting/crime incidents or demographic/geographic location of the schools that closed. Mine will attempt to pair the two in order to provide more context.
 <li>While I appreciate STLTODAY's graphic on year-over-year change, I wish it provided a tooltip that gave more information about that neighborhood: population and median income, to start. My app would provide the following data points: attendance rates, number of crime incidents, population and median income. I think even knowing this simple information could give more insight into differences between neighborhoods.</li>
@@ -34,6 +31,9 @@
 <a href="http://www.bbc.com/news/stories-42254527">School attendance and absence: the facts </a> <p>This article, while based in the U.K., looks at the reasons that students miss school, ranging from sickness to depression to boredom. It also compares the levels of absenteeism with income, crime and health levels, and found the link between truancy and other factors not as strong as previously considered.</p>
 
 <a href="http://www.nbcnews.com/id/33200246/ns/us_news-education/t/school-closings-root-chicago-teen-violence/#.Wwg1AC-ZP-Y">School closings root of Chicago teen violence?</a> <p>While this is a dated article, it explores the link between closing schools that lead to students being put into schools outside of their neighborhoods. In Chicago, where gang violence is rampant, this often causes teens in rival gangs to be put into the same school environment which sometimes exacerbates the violence. The story also provides information that shows how fatal shootings increased as the number of school closures increased between 2006-2007.</p>
+
+<a href="https://www.theatlantic.com/education/archive/2015/12/reimagining-abandoned-schools/418311/">Reimagining abandoned schools</a>
+<p>While this article focuses on what happens to the educational spaces after they are closed, it touches on the important role that schools have. They aren't just places for youth to learn; in rural, urban and suburban areas alike, schools tend to serve as community centers. So when a school does close, it often causes "grief and upheaval" in the community it existed. I extrapolate from this article that the widespread school closures in Chicago have had similar effects: a sense of loss. The article also picks up on the fact that because of the school closures in Chicago, children have been forced to cross through gang territory to get to their new schools.</p>
 
 <h2>Data sources</h2>
 
