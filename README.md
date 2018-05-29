@@ -18,6 +18,9 @@
 <a href="http://www.chicagotribune.com/news/data/ct-shooting-victims-map-charts-htmlstory.html">Chicago Tribune's Shooting Victims Map</a> 
 <p>Chicago, notorious for its gun violence, provides robust crime data that reimagines the way we can perceive the city. One visualization that I like on this page, which provides several charts and tables with shooting data, is the heatmap of where shootings occur. I think that being able to see the map provides a good understanding of the prevalence of violence in certain neighborhoods. </p>
 
+<a href="https://www.theatlantic.com/education/archive/2015/12/reimagining-abandoned-schools/418311/">Reimagining abandoned schools</a>
+<p></p>
+
 <ul>
 <li>The main thing that will differentiate my app from the others is that none of these pair location of the closed schools with crime incidents. Each app focuses on one metric: shooting/crime incidents or demographic/geographic location of the schools that closed. Mine will attempt to pair the two in order to provide more context.
 <li>While I appreciate STLTODAY's graphic on year-over-year change, I wish it provided a tooltip that gave more information about that neighborhood: population and median income, to start. My app would provide the following data points: attendance rates, number of crime incidents, population and median income. I think even knowing this simple information could give more insight into differences between neighborhoods.</li>
