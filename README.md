@@ -44,6 +44,10 @@
 
 <h2>Far vs. Near View</h2>
 
+<p>Far view: a map that displays shooting incidents on or near schools in Chicago - specifically, near schools that have closed since 2013. Allows the user to filter shooting incidents by time of day, neighborhood, age of victim/shooter and whether it is a fatal or nonfatal incident.</p>
+
+<p>Near view: tables listing each shooting incident for each school that has closed since 2013. The table will contain similar information as the interactive map (location, time of day, age of victim/shooter, fatal or nonfatal incident) but will be separated by each school rather together in one map.</p>
+
 
 <h2>Data sources</h2>
 
