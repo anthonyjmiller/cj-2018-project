@@ -8,6 +8,13 @@
 
 <p>What about in Chicago, Illinois often ranked as one of the most crime-ridden cities in the United States? The City closed nearly 50 schools in 2013, to the detriment of many community members and educators alike. My app will pair incidents of violent crime in Chicago with a map of schools that have been closed since 2013 to see if there is any link between increased crime and reduction of schools.</p>
 
+<h2>Far vs. Near View</h2>
+
+<p>Far view: a map that displays shooting incidents on or near schools in Chicago - specifically, near schools that have closed since 2013. Allows the user to filter shooting incidents by time of day, neighborhood, age of victim/shooter and whether it is a fatal or nonfatal incident.</p>
+
+<p>Near view: tables listing each shooting incident for each school that has closed since 2013. The table will contain similar information as the interactive map (location, time of day, age of victim/shooter, fatal or nonfatal incident) but will be separated by each school rather together in one map. Separately, the user could also select to view all shooting incidents by a certain filter: location, time, age of victim/shooter, fatal/nonfatal incident.</p>
+
+
 <h2>Inspirations and prior work </h2>
 <a href="https://graphics.stltoday.com/apps/crime/index.html">St. Louis Crime Tracker</a> 
 <p>This web app shows year-over-year change for crime incidents in the city of St. Louis, organized by neighborhood. The app allows the user to choose to view crimes by type (violent or property) and choose year-over-year change or per-capita incidents. It is fairly straightforward and provides a sense of which neighborhoods experience the most crime and which have the highest changes.</p>
@@ -40,14 +47,6 @@
 
 <a href="https://www.theatlantic.com/education/archive/2015/12/reimagining-abandoned-schools/418311/">Reimagining abandoned schools</a>
 <p>While this article focuses on what happens to the educational spaces after they are closed, it touches on the important role that schools have. They aren't just places for youth to learn; in rural, urban and suburban areas alike, schools tend to serve as community centers. So when a school does close, it often causes "grief and upheaval" in the community it existed. I extrapolate from this article that the widespread school closures in Chicago have had similar effects: a sense of loss. The article also picks up on the fact that because of the school closures in Chicago, children have been forced to cross through gang territory to get to their new schools.</p>
-
-
-<h2>Far vs. Near View</h2>
-
-<p>Far view: a map that displays shooting incidents on or near schools in Chicago - specifically, near schools that have closed since 2013. Allows the user to filter shooting incidents by time of day, neighborhood, age of victim/shooter and whether it is a fatal or nonfatal incident.</p>
-
-<p>Near view: tables listing each shooting incident for each school that has closed since 2013. The table will contain similar information as the interactive map (location, time of day, age of victim/shooter, fatal or nonfatal incident) but will be separated by each school rather together in one map.</p>
-
 
 <h2>Data sources</h2>
 
