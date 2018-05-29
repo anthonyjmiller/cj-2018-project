@@ -21,6 +21,9 @@
 <a href="https://everytownresearch.org/gunfire-in-school/">Gunfire in school</a>
 <p>This interactive map displays every shooting incident that has occurred on school grounds in the United States since 2013. It allows the user to select to view the shootings by year or cumulatively. Upon choosing a shooting incident, the app displays the date, location, region, description and outcome of the shooting. I like that this is very simple in that it only shows the individual incidents and descriptions over a time filter.  </p>
 
+<a href="https://projects.fivethirtyeight.com/simplified-gun-deaths/">Gun deaths in America</a>
+<p>This data viz by 538 focuses on all gun deaths in the United States, regardless of location or motive. I appreciate that the app guides you through anecdotal information about the data, such as women who have been gun homicide victims, the number of black men shot, and data about suicides. But it also allows the user to explore the data by filtering for causes, gender, age and race. It is a straightforward app that uses pixels to represent the number of victims for a specific field.</p>
+
 <ul>
 <li>The main thing that will differentiate my app from the others is that none of these pair location of the closed schools with crime incidents. Each app focuses on one metric: shooting/crime incidents or demographic/geographic location of the schools that closed. Mine will attempt to pair the two in order to provide more context.
 <li>While I appreciate STLTODAY's graphic on year-over-year change, I wish it provided a tooltip that gave more information about that neighborhood: population and median income, to start. My app would provide the following data points: attendance rates, number of crime incidents, population and median income. I think even knowing this simple information could give more insight into differences between neighborhoods.</li>
@@ -38,8 +41,6 @@
 <a href="https://www.theatlantic.com/education/archive/2015/12/reimagining-abandoned-schools/418311/">Reimagining abandoned schools</a>
 <p>While this article focuses on what happens to the educational spaces after they are closed, it touches on the important role that schools have. They aren't just places for youth to learn; in rural, urban and suburban areas alike, schools tend to serve as community centers. So when a school does close, it often causes "grief and upheaval" in the community it existed. I extrapolate from this article that the widespread school closures in Chicago have had similar effects: a sense of loss. The article also picks up on the fact that because of the school closures in Chicago, children have been forced to cross through gang territory to get to their new schools.</p>
 
-<a href="https://projects.fivethirtyeight.com/simplified-gun-deaths/">Gun deaths in America</a>
-<p>This data viz by 538 focuses on all gun deaths in the United States, regardless of location or motive. I appreciate that the app guides you through anecdotal information about the data, such as women who have been gun homicide victims, the number of black men shot, and data about suicides. But it also allows the user to explore the data by filtering for causes, gender, age and race. It is a straightforward app that uses pixels to represent the number of victims for a specific field.</p>
 
 <h2>Far vs. Near View</h2>
 
