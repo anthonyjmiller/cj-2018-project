@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello</h1>
+
+
+    <p>There are {{tracts | length }} census tracts</p>
+
+    <table class="table table-striped">
+        {% for t in tracts %}
+        <tr>
+            <td><a href="/tracts/{{t.id}}">{{t.name}}</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+
+
+</body>
+</html>
