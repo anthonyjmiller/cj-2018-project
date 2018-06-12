@@ -1,3 +1,7 @@
 image#carto{
-    box-sizing: content-box;
+    box-sizing: content-box;  
+}
+
+div#tables{
+    margin-top:1em;
 }
