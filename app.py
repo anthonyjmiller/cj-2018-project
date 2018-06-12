@@ -11,6 +11,10 @@ myapp = Flask(__name__)
 def homepage():
     return render_template('homepage.html', tracts=CENSUSTRACTS, crimes=CRIMES_GEOPATH)
 
+@myapp.route("/entity")
+def entity():
+    return render_template('entity.html', tracts=CENSUSTRACTS, crimes=CRIMES_GEOPATH)
+
 
 if __name__ == '__main__':
     myapp.run(debug=True, use_reloader=True)
