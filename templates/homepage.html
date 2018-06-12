@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<div class="page-header">
+        <h1>Guns & Gentrification</h1> 
+        <a href="/about">About</a>
+        <a href="/methodology">Methodology</a>
+        <a href="/">Homepage</a>
+
+      </div>
+
 <html lang="en">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,25 +25,45 @@
         <div id="banner" class="jumbotron">
             <div class="container">
 
-                <h2 class="site-title display-4">Gentrification: does it really lead to fewer crimes?</h2>
+                <h2 class="site-title display-4">Higher gentrification, lower crimes?</h2>
+                <h3 class="site-title display-6">An examination of gun crimes and gentrification in Chicago, IL</h3>
 
-                    <div class="col-sm-6">
+
+                   
                         <div class="lede-image">
-                                <iframe id="carto" width="1050" height="1050" frameborder="" src="https://stanford.carto.com/u/milleran/builder/3ee5fa98-e942-4b90-892a-31d3f67417d2/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+                                <iframe id="carto" width="1000" height="1000" frameborder="" src="https://stanford.carto.com/u/milleran/builder/3ee5fa98-e942-4b90-892a-31d3f67417d2/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
                         </div>
-                        <p>There are {{tracts | length }} census tracts in Chicago, Illinois</p>
-                            
-                                <table class="table table-striped">
+                        <div>
+                            <h2>
+
+                            </h2>
+                        </div>
+                       <div>
+                           <h4>There are {{tracts | length }} census tracts in Chicago, Illinois</h4>
+                        </div>
+                        <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Pick tract
+                                </button>
+                                <div class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenuButton">
                                     {% for t in tracts %}
-                                    <tr>
-                                        <td><a href="/entity">{{t.name}}</a></td>
-                                    </tr>
+                                        <a class="dropdown-item" href="/entity/{{t.id}}">
+                                            {{t.name}}
+                                        </a>
                                     {% endfor %}
-                    </div>
+                                </div>
+                            
+                            </div>
                 </div>
 
             </div>
         </div>
+        <div class="page-footer">
+                <a href="/about">About</a>
+                <a href="/methodology">Methodology</a>
+                <a href="/">Homepage</a>
+        
+              </div>
 
 <div class="container">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
