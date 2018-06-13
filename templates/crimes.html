@@ -1,88 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<div class="page-header">
+        <h1>Guns & Gentrification</h1> 
+        <a href="/">Home</a>
+        <a href="/crimes">Gun Crimes</a>
+        <a href="/about">About</a>
 
-        <div class="page-header">
-                <h1>Guns & Gentrification</h1> 
-                <a href="/">Homepage</a>
-                <a href="/about">About</a>
-                <a href="/crimes">Gun Crimes</a>
-        
-              </div>
-        
-        <html lang="en">
-                <meta charset="utf-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+      </div>
+
+<html lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tracts</title>
+    <title>
+                Gun crimes
+
+    </title>
+
 </head>
-<div class="lede-image" align="center">
-        <iframe id="carto" width="750" height="750" frameborder="" src="https://stanford.carto.com/u/milleran/builder/3ee5fa98-e942-4b90-892a-31d3f67417d2/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-</div>
-<body>
-    <table class="table table-striped">
-        <thead><h2>Total gun crimes per year</h2></thead>
+
+        <div id="banner" class="jumbotron">
+            <div class="container">
+
+                <h2 class="site-title display-4">Gun crimes</h2>
+                <h3 class="site-title display-6">Data on gun crime occurences in Chicago</h3>
+
+
+                   
+                        <div class="lede-image">
+                                <iframe id="carto" width="1000" height="1000" frameborder="" src="https://stanford.carto.com/u/milleran/builder/3ee5fa98-e942-4b90-892a-31d3f67417d2/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+                        </div>
+                       
+            </div>
+        </div>
+        <div id="tables">
+            <table class="table table-striped">
+                 <thead><h2>Total gun crimes per year</h2></thead>
           <tr>
             <th scope="col">Year</th>
             <th scope="col"># of gun crimes</th>
+            <th scope="col">% total</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">2011</th>
             <td>4121</td>
+            <td>16.19%</td>
           </tr>
           <tr>
             <th scope="row">2012</th>
             <td>4242</td>
+            <td>16.67%</td>
           </tr>
           <tr>
             <th scope="row">2013</th>
             <td>3392</td>
+            <td>13.32%</td>
           </tr>
           <tr>
             <th scope="row">2014</th>
             <td>3667</td>
+            <td>14.41%</td>
           </tr>
           <tr>
             <th scope="row">2015</th>
             <td>4104</td>
+            <td>16.12%</td>
           </tr>
           <tr>
             <th scope="row">2016</th>
             <td>5929</td>
+            <td>23.30%</td>
           </tr>
         </tbody>
-      </table>
-   
-            <table class="table table-striped" align="center">
-                <thead><h2>Types of gun crimes</h2></thead>
+              </table>
+              <table class="table table-striped">
+               <thead><h2>Types of gun crimes</h2></thead>
                   <tr>
-                    <th scope="col">Type</th>
-                    <th scope="col">Total count</th>
+                      <th scope="col">Type</th>
+                      <th scope="col">Total count</th>
+                      <th scope="col">% total</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">Assault</th>
+                    <td>Assault</td>
                     <td>13,701</td>
+                    <td>53.82%</td>
                   </tr>
                   <tr>
-                    <th scope="row">Battery</th>
+                    <td>Battery</td>
                     <td>11,258</td>
+                    <td>44.22%</td>
                   </tr>
                   <tr>
-                    <th scope="row">Criminal Sexual Assault</th>
+                    <td>Criminal Sexual Assault</td>
                     <td>496</td>
+                    <td>0.02%</td>
                   </tr>
                 </tbody>
               </table>
-                    <table class="table table-striped table-m" align="center">
-                        <thead><h2>Arrests per year</h2></thead>
+              <table class="table table-striped">
+                 <thead><h2>Arrests per year</h2></thead>
                         
                           <tr>
                             <th scope="col">Year</th>
@@ -135,13 +156,20 @@
                             <td>12.2%</td>
                         </tr>
                         </tbody>
-                      </table>
-    
-</body>
-<div class="page-footer">
-        <a href="/">Homepage</a>
-        <a href="/about">About</a>
-        <a href="/crimes">Gun Crimes</a>
-    
-          </div>
-</html>
+              </table>
+        </div>
+        <div class="page-footer">
+            <a href="/">Home</a>
+            <a href="/crimes">Gun Crimes</a>
+            <a href="/about">About</a>
+
+        
+              </div>
+
+<div class="container">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+</div>
+
