@@ -1,3 +1,6 @@
-body.homepage div.page-header{
-    background-color:aliceblue;
+iframe{
+    display:block;
+}
+div#guns.col-md-6{
+    display:inline-block;
 }
